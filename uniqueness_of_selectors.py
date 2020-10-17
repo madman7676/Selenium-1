@@ -10,15 +10,15 @@ browser.get(link)
 
 # Заполнение поля "Имя"
 nameInput = browser.find_element_by_css_selector(".first_class [placeholder='Введите имя']")
-nameInput.send_keys("Мария")
+nameInput.send_keys("Александр")
 
 # Заполнение поля "Фамилия"
 lastnameInput = browser.find_element_by_css_selector(".second_class [placeholder='Введите фамилию']")
-lastnameInput.send_keys("Марьина")
+lastnameInput.send_keys("Галка")
 
 # Заполнение поля "Email"
 emailInput = browser.find_element_by_css_selector(".third_class [placeholder='Введите Email']")
-emailInput.send_keys("maria@testmail.com")
+emailInput.send_keys("galka@testmail.com")
 
 # Отправляем заполненную форму
 button = browser.find_element_by_css_selector("button.btn")
