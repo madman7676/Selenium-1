@@ -18,7 +18,7 @@ lastnameInput.send_keys("Галка")
 
 # Заполнение поля "Email"
 emailInput = browser.find_element_by_css_selector(".third_class [placeholder='Введите Email']")
-emailInput.send_keys("galka@testmail.com")
+emailInput.send_keys("sgalka@testmail.com")
 
 # Отправляем заполненную форму
 button = browser.find_element_by_css_selector("button.btn")
